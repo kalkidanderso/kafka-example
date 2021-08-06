@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node producer.app.js",
-    "dev": "nodemon producer.app.js"
+    "start": "node init && node producer.app.js",
+    "dev": "node init && nodemon producer.app.js"
   },
   "keywords": [],
   "author": "",
